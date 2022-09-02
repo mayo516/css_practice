@@ -1,0 +1,127 @@
+h1, p , ul{
+    margin: initial;
+    padding: 0;
+}
+
+h1 , h2 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+li {
+    list-style-type: none;
+}
+
+.wrapper {
+    background-color: rgb(230, 230, 230);
+    color: #e9e9e9;
+    width: 800px;
+    margin: 50px auto;
+    text-decoration: none;
+}
+
+.header {
+    background-image: url(images/cover04.png);
+    text-align: center;
+    color: #eeeeee;
+    background-size: cover;
+    /* padding: 100px 0; */
+    height: 300px;
+    padding-top: 100px;
+}
+
+.header h1 {
+    font-size: 60px;
+    width: 500px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+img {
+    width: 110px;
+    border-radius: 50%;
+    border: 3px solid rgb(222, 235, 238);
+    
+}
+
+.header p {
+    border-top: 4px solid;
+    padding-top: 10px 20px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+
+body {
+   background-image: url(images/background.png);
+   
+   
+}
+
+.footer {
+    text-align: center;
+    text-decoration: inherit;
+    
+    padding: 10px 0;
+    background-color: #ffffff;
+   
+}
+
+.link {
+    display:flexbox;
+    background-color: rgb(255, 255, 255);
+    text-decoration: inherit;
+    color: inherit;
+    display: inline-block;
+    width: 100px;
+    height: 21x;
+    margin: 5px;
+    border: solid 4px;
+    border-radius: 40px ;
+    padding: 5px 15px;
+    font-weight: bold;
+}
+
+
+.github {
+    color:#e7ac8a ;
+    
+}
+
+.facebook {
+    color: rgb(159, 162, 194);
+}
+
+.contact {
+    color: rgb(97, 136, 116);
+}
+
+.info {
+    background-image: url(images/icon-information.png);
+    background-repeat: no-repeat;
+    background-position: right 30px center;
+    margin: 20px;
+    
+    background-color: #ffffff;
+}
+
+.skills {
+    background-image: url(images/icon-skills.png);
+    background-repeat: no-repeat;
+    background-position: right 30px center;
+    margin: 20px;
+    
+    background-color: #ffffff;
+} 
+
+.section h2 {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #632c2c;
+}
+
+.section {
+    color: rgb(177, 177, 177);
+    padding: 20px;
+
+}
